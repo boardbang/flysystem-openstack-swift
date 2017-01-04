@@ -16,13 +16,19 @@
             "email": "chris@nimbusoft.co.uk"
         }
     ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/boardbang/openstack"
+        }
+    ],
     "autoload": {
         "psr-4": {
             "Nimbusoft\\Flysystem\\OpenStack\\": "src/"
         }
     },
     "require": {
-        "php-opencloud/openstack": "^2.0",
+        "php-opencloud/openstack": "dev-master",
         "league/flysystem": "^1.0"
     },
     "require-dev": {
